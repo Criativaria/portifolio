@@ -1,0 +1,5 @@
+.cursor {
+    position: fixed;
+    border-radius: 50%;
+    box-shadow: -125px -25px 200px 75px rgb(255, 0, 225);
+}
