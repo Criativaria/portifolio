@@ -9,7 +9,7 @@ export function LangProvider({ children }) {
     const [lang, setLang] = useState("pt");
 
     useEffect(() => {
-        setLang(localStorage.getItem("Lang"))
+        setLang(localStorage.getItem("Lang") || "pt")
     }, [])
 
     function toggleLang() {
