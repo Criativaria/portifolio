@@ -95,6 +95,7 @@ const Main = styled.div`
 const ImgFoto = styled.img`
     width: 533px;
     height: 100%;
+    margin-right: 50px;
 `
 const Background = styled.div`
     width: 300px;
